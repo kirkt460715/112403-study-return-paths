@@ -54,6 +54,18 @@
         "touch_type",
         "touch_date"
       ]
+    },
+    {
+      "file": "feedback.csv",
+      "columns": [
+        "feedback_id",
+        "identity_token",
+        "event_id",
+        "interested_topics",
+        "score",
+        "comment"
+      ],
+      "key": "feedback_id"
     }
   ]
 }
