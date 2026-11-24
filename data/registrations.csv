@@ -1,0 +1,7 @@
+registration_id,event_id,identity_token,household_token,channel,status,consent
+R1,E1,I01,H1,community,attended,yes
+R2,E1,I02,H1,community,attended,yes
+R3,E2,I01,H1,friend,attended,yes
+R4,E2,I03,H2,school,cancelled,yes
+R5,E3,I04,H3,web,attended,withdrawn
+R6,E4,I1A,H1,community,attended,yes

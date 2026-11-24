@@ -1,0 +1,48 @@
+{
+  "tables": [
+    {
+      "file": "events.csv",
+      "columns": [
+        "event_id",
+        "date",
+        "topic",
+        "series_version"
+      ],
+      "key": "event_id"
+    },
+    {
+      "file": "registrations.csv",
+      "columns": [
+        "registration_id",
+        "event_id",
+        "identity_token",
+        "household_token",
+        "channel",
+        "status",
+        "consent"
+      ],
+      "key": "registration_id"
+    },
+    {
+      "file": "identity_links.csv",
+      "columns": [
+        "left_token",
+        "right_token",
+        "link_strength",
+        "valid_from",
+        "valid_to",
+        "review"
+      ],
+      "key": "left_token"
+    },
+    {
+      "file": "touches.csv",
+      "columns": [
+        "identity_token",
+        "event_id",
+        "touch_type",
+        "touch_date"
+      ]
+    }
+  ]
+}

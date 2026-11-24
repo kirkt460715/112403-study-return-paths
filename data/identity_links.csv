@@ -1,0 +1,4 @@
+left_token,right_token,link_strength,valid_from,valid_to,review
+I01,I1A,confirmed,2026-09-01,2026-10-31,approved
+I02,I1A,possible,2026-09-01,,pending
+I03,I04,distinct,2026-09-01,,approved
