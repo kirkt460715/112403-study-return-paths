@@ -36,6 +36,17 @@
       "key": "left_token"
     },
     {
+      "file": "consent_events.csv",
+      "columns": [
+        "consent_id",
+        "identity_token",
+        "event_id",
+        "status",
+        "effective_at"
+      ],
+      "key": "consent_id"
+    },
+    {
       "file": "touches.csv",
       "columns": [
         "identity_token",

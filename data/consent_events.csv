@@ -1,0 +1,5 @@
+consent_id,identity_token,event_id,status,effective_at
+C1,I01,E1,granted,2026-08-01T09:00
+C2,I01,E3,withdrawn,2026-10-01T12:00
+C3,I02,E1,granted,2026-08-04T09:00
+C4,I04,E3,withdrawn,2026-10-02T12:00
